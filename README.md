@@ -1,6 +1,6 @@
 # twitcler
 
-Hacky little command-line twitter listener to pop up annoying little
+A hacky little command-line twitter listener to pop up annoying little
 (ubuntu+xmonad) notifications using notify-send.
 
 # usage
