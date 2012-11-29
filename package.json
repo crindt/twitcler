@@ -1,0 +1,33 @@
+{
+  "author": "Craig Rindt crindt@gmail.com> (https://github.com/crindt)",
+  "name": "twitcler",
+  "description": "Hacky little command-line twitter listener to pop up (ubuntu+xmonad) notifications using notify-send.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/crindt/twitcler",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crindt/twitcler.git"
+  },
+  "main": "./lib/twitcler.js",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+ "licenses": { 
+    "type": "MIT", 
+    "url": "http://github.com/crindt/twitcler/raw/master/LICENSE"
+  },
+
+  "dependencies": { 
+    "util": "*", 
+    "ntwitter": ">=0.5.0",
+    "notify-send": ">=0.1.2"
+  }, 
+  "devDependencies": {
+    "should": "*",
+    "mocha": "*"
+  }
+}
